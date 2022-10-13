@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práticas Aula 7</title>
+  </head>
+  <body>
+    <h1>Imagens SVG</h1>
+    <hr />
+    <svg width="100" height="100">
+      <circle
+        cx="50"
+        cy="50"
+        r="30"
+        stroke="black"
+        stroke-width="4"
+        fill="blue"
+      />
+    </svg>
+    <svg height="100" width="100">
+      <ellipse
+        cx="50"
+        cy="50"
+        rx="48"
+        ry="20"
+        style="fill: gray; stroke: black; stroke-width: 2"
+      />
+    </svg>
+    <svg height="100" width="100">
+      <polygon
+        points="55,20 95,50 80,95 35,95 20,55"
+        style="
+          fill: #ff5c00;
+          stroke: #24389f;
+          stroke-width: 5;
+          fill-rule: nonzero;
+        "
+        id="react"
+      />
+      <animate
+        xlink:href="#react"
+        attributeName="points"
+        from="55,20 95,50 80,95 35,95 20,55"
+        to="95,50 80,95 35,95 20,55 55,20"
+        dur="2s"
+        begin="2s"
+        repeatCount="indefinite"
+      />
+    </svg>
+    <svg width="100" height="100">
+      <rect
+        x="15"
+        y="15"
+        rx="10"
+        ry="10"
+        width="70"
+        height="70"
+        style="fill: #ff0000; stroke: #ff5c00; stroke-width: 15"
+      />
+    </svg>
+    <svg height="100" width="100">
+      <polygon
+        points="34,24 58,52 74,32 98,57 58,98 10,49"
+        style="fill: none; stroke: black; stroke-width: 5; fill-rule: nonzero"
+      />
+    </svg>
+  </body>
+</html>
