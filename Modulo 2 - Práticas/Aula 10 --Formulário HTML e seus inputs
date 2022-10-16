@@ -1,0 +1,66 @@
+<!-- 1. O formulário HTML mostrado na figura a seguir contém 10 tipos diferentes de campos de entrada de
+dados. Faça o código HTML desse formulário, considerando que ele deve ser enviado para o endereço
+“/cliente/cadastrar”. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praticas Aula 10</title>
+  </head>
+  <body>
+    <main>
+      <h1>Cadastro de Cliente</h1>
+      <hr />
+      <form action="/cliente/cadastrar" method="post">
+        <p>
+          <label for="txtNome">Nome</label><br />
+          <input type="text" id="txtNome" placeholder="Nome Completo" />
+        </p>
+        <p>
+          <label for="txtEmail">E-mail</label><br />
+          <input type="email" id="txtEmail" placeholder="seuemail@..." />
+        </p>
+        <p>
+          <label for="txtURL">URL Portfolio Online</label><br />
+          <input type="text" id="txtURL" />
+        </p>
+        <p>
+          <label for="txtData">Data de Nascimento</label><br />
+          <input type="date" id="txtData" />
+        </p>
+        <p>
+          <label for="txtDependentes">Qtde Dependentes</label><br />
+          <input type="number" id="txtDependentes" />
+        </p>
+        <p>
+          <label for="txtCor">Cor Preferida</label><br />
+          <input type="color" id="txtCor" />
+        </p>
+        <p>
+          <label for="txtTelefone">Telefone</label><br />
+          <input type="number" id="txtTelefone" placeholder="(99) 99999-9999" />
+        </p>
+        <p>
+          <input type="checkbox" id="txtVerifica" />
+          <label for="txtVerifica">Receber promoções</label>
+        </p>
+        <p>
+          <label for="slctEstado">Estado</label><br />
+          <select>
+            <option>Selecione...</option>
+          </select>
+        </p>
+        <p>
+          <label for="txtMiniBiografia">Mini-Biografia</label><br />
+          <textarea name="MiniBiografia" id="txtMiniBiografia" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Enviar" />
+        </p>
+      </form>
+    </main>
+  </body>
+</html>

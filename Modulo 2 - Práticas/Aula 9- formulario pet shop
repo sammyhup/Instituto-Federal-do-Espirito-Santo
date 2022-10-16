@@ -1,0 +1,51 @@
+<!-- 2. Imagine que você trabalhe em um pet shop e o proprietário peça para você adicionar ao site uma página
+em que o cliente possa solicitar o orçamento de determinado serviço. A página deve ter um formulário
+com os seguintes campos:
+a. Nome do dono (digitação livre de linha única)
+b. Tipo de animal (cachorro, coelho, gato ou pássaro)
+c. Tipo de serviço (digitação livre de linha única)
+d. Observações (digitação livre de múltiplas linhas)
+O formulário deve ter um botão que submeta os dados via POST para o endereço “/contato/cotar”. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práticas Aula 9</title>
+  </head>
+  <body>
+    <main>
+      <h1>Formulários</h1>
+      <hr />
+      <form action="/contato/cotar" method="post">
+        <p>
+          <label for="txtNomeCompleto">Nome Completo</label><br />
+          <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Nome Completo" />
+        </p>
+        <p>
+          <label for="slctTipoDeAnimal">Tipo de Animal</label><br />
+          <select name="Pets" id="slctTipoDeAnimal" multiple>
+            <option value="Cachorro">Cachorro</option>
+            <option value="Coelho">Coelho</option>
+            <option value="Gato">Gato</option>
+            <option value="Passaro">Pássaro</option>
+          </select>
+        </p>
+        <p>
+          <label for="txtTipoDeServico">Tipo de Serviço</label><br />
+          <input type="text" name="NomeCompleto" id="txtTipoDeServico" />
+        </p>
+        <p>
+          <label for="txtObservacoes">Observações</label><br />
+          <textarea name="Observacoes" id="txtObservacoes" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </p>
+      </form>
+    </main>
+  </body>
+</html>

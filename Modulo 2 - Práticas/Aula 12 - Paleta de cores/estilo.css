@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.vertical{
+   margin: 15px;
+}
+.tamanho{
+    width: 15px;
+}
+.textDest{
+    background-color: dimgrey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin: 10px;
+    color: black;
+}
+
+.outro{
+    margin-left: auto ;
+    border: none solid;
+}
+
+p > i:hover {
+    margin: auto;
+    color: blue;
+    background-color: darkgray;    
+}
+
+footer p{
+    color:black;
+    text-align: center;
+}    

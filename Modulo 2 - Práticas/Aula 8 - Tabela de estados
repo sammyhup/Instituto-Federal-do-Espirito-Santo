@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabela dos Estados</title>
+    <meta charset="UTF=8">
+</head>
+
+<body>
+    <!-- CABEÇALHO DO WEBSITE -->
+    <h1>IFES- Instituto Federal do Espirito Santo</h1>
+    <h2>Tabela dos Estados utilizando HTML</h2>
+    <hr>
+
+
+    <!-- CONTEÚDO DO WEBSITE -->
+    <table border="1" width="60%" cellpadding="5" cellspacing="5" align="center" bgcolor="lightblue" frame="box"
+        rules="all">
+        <caption>Tabelas</caption>
+
+        <thead>
+            <!--Cabeçalho da primeira linha da tabela -->
+            <tr>
+                <th>Região</th>
+                <th>UF</th>
+                <th>Nome</th>
+                <th>Habitantes (milhão)</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!--Segunda linha da tabela -->
+            <tr>
+                <th rowspan="4">Centro Oeste </th>
+                <th>DF</th>
+                <th>Distrito Federal</th>
+                <th> 2,9</th>
+            </tr>
+            <!--Terceira linha da tabela -->
+            <tr>
+                <th>GO</th>
+                <th>Goiás</th>
+                <th> 6,6</th>
+            </tr>
+            <!--Quarta linha da tabela -->
+            <tr>
+                <th>MT</th>
+                <th>Mato Grosso</th>
+                <th> 3,2</th>
+            </tr>
+            <!--Quinta linha da tabela -->
+            <tr>
+                <th>MS</th>
+                <th>Mato Grosso do Sul</th>
+                <th> 2,6</th>
+            </tr>
+            <!--Sexta linha da tabela -->
+            <tr>
+                <th rowspan="9">Nordeste </th>
+                <th>AL</th>
+                <th>Alagoas</th>
+                <th> 3,3</th>
+            </tr>
+            <!--setima linha da tabela -->
+            <tr>
+                <th>BA</th>
+                <th>Bahia</th>
+                <th> 15,2</th>
+            </tr>
+            <!--Oitavaa linha da tabela -->
+            <tr>
+                <th>CE</th>
+                <th>Ceará</th>
+                <th> 8,9</th>
+            </tr>
+            <!--Nona linha da tabela -->
+            <tr>
+                <th>MA</th>
+                <th>Maranhão</th>
+                <th> 6,9</th>
+            </tr>
+            <!--Décima linha da tabela -->
+            <tr>
+                <th>PB</th>
+                <th>Paraíba</th>
+                <th> 3,9</th>
+            </tr>
+            <!--Décima primeira linha da tabela -->
+            <tr>
+                <th>PE</th>
+                <th>Pernambuco</th>
+                <th> 9,3</th>
+            </tr>
+            <!--Décima seguinda linha da tabela -->
+            <tr>
+                <th>PI</th>
+                <th>Piauí</th>
+                <th> 3,2</th>
+            </tr>
+            <!--Décima terceira linha da tabela -->
+            <tr>
+                <th>RN</th>
+                <th>Rio Grande do Norte</th>
+                <th> 3,4</th>
+            </tr>
+            <!--Décima quarta linha da tabela -->
+            <tr>
+                <th>SE</th>
+                <th>Sergipe</th>
+                <th> 2,2</th>
+            </tr>
+            <!--Décima quinta linha da tabela -->
+            <tr>
+                <th rowspan="7">Norte </th>
+                <th>AC</th>
+                <th>Acre</th>
+                <th> 0,8</th>
+            </tr>
+            <!--decima sexta linha da tabela -->
+            <tr>
+                <th>AP</th>
+                <th>Amapá</th>
+                <th> 0,8</th>
+            </tr>
+            <!--Décima setima linha da tabela -->
+            <tr>
+                <th>AM</th>
+                <th>Amazonas</th>
+                <th> 3,9</th>
+            </tr>
+            <!--Décima oitava linha da tabela -->
+            <tr>
+                <th>PA</th>
+                <th>Pará</th>
+                <th> 8,1</th>
+            </tr>
+            <!--Décima nona linha da tabela -->
+            <tr>
+                <th>RO</th>
+                <th>Rondônia</th>
+                <th> 1,7</th>
+            </tr>
+            <!--Vigésima linha da tabela -->
+            <tr>
+                <th>RR</th>
+                <th>Roraima</th>
+                <th> 0,5</th>
+            </tr>
+            <!--Vigésima Primeira linha da tabela -->
+            <tr>
+                <th>TO</th>
+                <th>Tocantins</th>
+                <th> 1,5</th>
+            </tr>
+            <!--Vigésima  segunda linha da tabela -->
+            <tr>
+                <th rowspan="4">Sudeste </th>
+                <th>ES</th>
+                <th>Espírito Santo</th>
+                <th> 3,98</th>
+            </tr>
+            <!--Vigésima terceira linha da tabela -->
+            <tr>
+                <th>MG</th>
+                <th>Minas Gerais</th>
+                <th> 20,8</th>
+            </tr>
+            <!--Vigésima quarta linha da tabela -->
+            <tr>
+                <th>RJ</th>
+                <th>Rio de Janeiro</th>
+                <th> 16,5</th>
+            </tr>
+            <!--Vigésima quinta linha da tabela -->
+            <tr>
+                <th>SP</th>
+                <th>São Paulo</th>
+                <th> 44,3</th>
+            </tr>
+            <!--Vigésima sexta linha da tabela -->
+            <tr>
+                <th rowspan="3">Sul </th>
+                <th>PR</th>
+                <th>Paraná</th>
+                <th> 11,2</th>
+            </tr>
+            <!--Vigésima setima linha da tabela -->
+            <th>RS</th>
+            <th>Rio grande do Sul</th>
+            <th> 11,2</th>
+            </tr>
+            <!--Vigésima oitava linha da tabela -->
+            <tr>
+                <th>SC</th>
+                <th>Santa Catarina</th>
+                <th> 6,8</th>
+            </tr>
+        </tbody>
+        <tfooter>
+            <!--Vigésima nona linha da tabela -->
+            <tr>
+                <th colspan="3"> População do Brasil</th>
+                <td align="center">203,6</td>
+        </tfooter>
+
+    </table>
+
+    <!-- ASSINATURA DO DESENVOLVEDOR -->
+    <p>
+        <b>Desenvolvido por Samanta Cristina</b>
+    </p>
+
+    <!--Maneira porca de estilizar -->
+    <style>
+        td {
+            color: rgb(7, 7, 7)
+        }
+
+        ;
+    </style>
+
+</body>
+
+</html>
