@@ -1,31 +1,39 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-.vertical{
-   margin: 15px;
-}
-.tamanho{
-    width: 15px;
-}
-.textDest{
-    background-color: dimgrey;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    margin: 10px;
-    color: black;
+:root {
+    --russian-violet: #bf616a;
+    --russian-violet-2: #5e81ac;
+    --russian-violet-3: #434c5e;
+    --dark-purple: #3b4252;
+    --xiketic: #d8dee9;
 }
 
-.outro{
-    margin-left: auto ;
-    border: none solid;
+body {
+    background-color: var(--dark-purple);
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(img/black-thread.png);
 }
 
-p > i:hover {
-    margin: auto;
-    color: blue;
-    background-color: darkgray;    
+h1, h2, h3 , h4, h5, h6 {
+    color: var(--xiketic);
 }
 
-footer p{
-    color:black;
+p {
+    color:var(--russian-violet-2);
+}
+
+a {
+    color : var(--russian-violet);
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: var(--russian-violet-3);
+    padding: 10px;
     text-align: center;
-}    
+    border: 2px groove #d8dee9;
+}
+
+main {
+    padding: 10px;
+}
